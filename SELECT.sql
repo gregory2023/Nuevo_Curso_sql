@@ -2,7 +2,6 @@
 
 --TABLAS EN LA BD 
 
-
 --Products;
 --categories;
 --customers;
@@ -70,6 +69,11 @@ FROM Products
 ORDER BY Price DESC
 
 
+SELECT ProductName , ProductID
+FROM Products
+ORDER BY ProductName , ProductID DESC
+
+
 
 --AS - PARA RENOMBRAR 
 
@@ -112,6 +116,36 @@ ORDER BY ProductName ASC
 --Chocolade
 --Côte de Blaye
 --Escargots de Bourgogne
+
+
+--Disitinct , nos ayuda a traer todos los registros de una columna pero que no se repitan mas de una vez 
+
+SELECT  DISTINCT (Country)
+FROM Suppliers
+ORDER by Country asc
+
+
+select distinct (Address)
+from Suppliers
+ORDER BY Address DESC
+
+--UK
+--Sweden
+--Spain
+--Singapore
+--Norway
+--Netherlands
+--Japan
+--Italy
+--Germany
+--France
+--Finland
+--Denmark
+--Canada
+--Brazil
+--Australia
+
+
 
 
 
