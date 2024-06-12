@@ -2,8 +2,10 @@
 
 Este repositorio contiene el material y los ejercicios del curso básico de SQL que estoy desarrollando para mejorar mis habilidades y enriquecer mi portafolio. La base de datos Northwind se utiliza como ejemplo para practicar diversas consultas SQL y manipulación de datos.
 
-## Contenido del Curso
+![MODELO ENTIDAD-RELACION DE LA BD ](IMG/E_R.png)
 
+## Contenido del Curso
+git 
 1. **Introducción a SQL**
    - ¿Qué es SQL?
    - Historia y versiones de SQL
